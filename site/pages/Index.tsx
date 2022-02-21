@@ -19,9 +19,9 @@ function Page() {
             </Box>
 
             <Box as='p' fs='18px' lh='26px'>
-              We’re a crew of friendly neighbors bringing together our passions and professions in a shared workspace.<br /><br />
+              We’re a crew of friendly neighbors bringing together our passions and professions within a shared workspace in North Center, Chicago.<br /><br />
 
-              Whether commiserating across industries or sharing a drink, we’re here to do the work and have some fun, side by side. (Plus it’s nice to be out of the g*damn house.)<br /><br />
+              Whether commiserating across industries or sharing a drink, we’re here to do the work and have some fun, side by side. Plus it’s nice to be out of the house.<br /><br />
 
               Give us a knock. We probably have snacks.
             </Box>
