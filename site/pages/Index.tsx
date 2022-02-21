@@ -10,7 +10,7 @@ function Page() {
     <Box f fw style={{ height: '100vh' }}>
       <Box w={[1, 1, 1, 1/2]} h f aic jcc rel z={1} bg='white'>
         <Box p={[6, 8, 10, 12]}>
-          <Box maxWidth='480px' mxa>
+          <Box maxWidth='490px' mxa>
             <Box as='h1' rel fs='48px' w='auto' dib lh='1.0' mb={10} ff='man'>
               <Box as='span' rel z={1}>
                 side x side
@@ -18,10 +18,10 @@ function Page() {
               <Box abs left right bottom h='50%' bg='yellow' z={0} />
             </Box>
 
-            <Box as='p' fs='18px' lh='26px'>
+            <Box as='p' fs={['16px', '16px', '18px']} lh='26px'>
               We’re a crew of friendly neighbors bringing together our passions and professions within a shared workspace in North Center, Chicago.<br /><br />
 
-              Whether commiserating across industries or sharing a drink, we’re here to do the work and have some fun, side by side. Plus it’s nice to be out of the house.<br /><br />
+              Whether commiserating across industries or sharing a drink, we’re here to do the work and have some fun, side by side. Plus it’s nice to be out of the g*ddamn house.<br /><br />
 
               Give us a knock. We probably have snacks.
             </Box>
