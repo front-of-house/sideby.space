@@ -37,5 +37,5 @@ export const globalStyle = hypostyle.createGlobal({
     '&:hover': {
       textDecoration: 'underline',
     }
-  }
+  },
 })
