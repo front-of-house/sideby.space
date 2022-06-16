@@ -8,13 +8,25 @@ export const hypostyle = hypo({
     ...presets.tokens,
     fontFamily: {
       sans: `'Inter', sans-serif`,
-      man: `'Manrope', sans-serif`,
     },
     color: {
-      dark: '#111B3E',
-      light: '#D0D0D0',
-      blue: '#0C3DEA',
-      yellow: '#F7FF9F',
+      dark: '#242E2C',
+      green: '#588467',
+      yellow: '#FCC768',
+      light: '#E2EFF3',
+      blue: '#0D4C6D',
+    }
+  },
+  macros: {
+    ...presets.macros,
+    caps: {
+      textTransform: 'uppercase'
+    },
+    cover: {
+      top: 0,
+      bottom: 0,
+      left: 0,
+      right: 0,
     }
   }
 })
@@ -32,7 +44,7 @@ export const globalStyle = hypostyle.createGlobal({
     m: 0,
   },
   a: {
-    c: 'blue',
+    c: 'currentColor',
     textDecoration: 'none',
     '&:hover': {
       textDecoration: 'underline',
