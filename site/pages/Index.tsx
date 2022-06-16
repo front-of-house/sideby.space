@@ -94,9 +94,10 @@ export async function handler() {
     head: {
       title: 'Side By Side',
       description: 'A shared workspace in North Center, Chicago.',
-      image: '/og.png',
+      image: 'https://sideby.space/og.png',
       twitter: {
         card: 'summary_large_image',
+        'image:src': 'https://sideby.space/og.png',
       },
       link: head.link,
       style: [
