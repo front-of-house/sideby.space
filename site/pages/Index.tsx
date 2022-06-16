@@ -50,10 +50,10 @@ function Page() {
     <Box f aic jcc bg={variant.bg} c={variant.c} style={{ height: '100vh' }}>
       <Box f jcb abs left top right bg={variant.bg} c={variant.c} h={30} lh='30px' px={2} cx={{ borderBottom: '1px solid', borderColor: 'currentColor' }}>
         <Box>
-          3711 N Ravenswood Ave, Chicago
+          <Box db as='a' href='https://goo.gl/maps/zi7fzJ4yZUFcW81u6' target='_blank'>3711 N Ravenswood Ave, Chicago</Box>
         </Box>
         <Box d={['none', 'block']}>
-          <Box db as='a' href='mailto:hi@sideby.space?subject=Hey%20hello%20hi'>hi@sideby.space</Box>
+          <Box db as='a' href='mailto:hi@sideby.space?subject=Hey%20hello%20hi' target='_blank'>hi@sideby.space</Box>
         </Box>
       </Box>
 
@@ -61,15 +61,15 @@ function Page() {
         {/* <LogoOutline abs cover c='green' width='80%' ma z={0} /> */}
         <Lockup counter={hypostyle.theme.tokens.color[variant.counter]} width={['175px', '200px', '250px']} rel z={1} />
 
-        <Box db as='a' href='mailto:hi@side-side.xyz?subject=Hey%20hello%20hi' caps abs top={['10%', '10%', '15%']} left='15%' w='120px'>
+        <Box db as='a' href='mailto:hi@sideby.space?subject=Hey%20hello%20hi' target='_blank' caps abs top={['10%', '10%', '15%']} left='15%' w='120px'>
           Stop by for a beer
           <ArrowTopRight width='20px' di />
         </Box>
-        <Box db as='a' href='https://front-of-house.notion.site/Side-By-Side-26ca3618b5784272b7dfe3517c4fc0fd' caps abs top='80%' left={['45%', '45%', '25%']} w='120px'>
+        <Box db as='a' href='https://front-of-house.notion.site/Side-By-Side-26ca3618b5784272b7dfe3517c4fc0fd' target='_blank' caps abs top='80%' left={['45%', '45%', '25%']} w='120px'>
           Learn more about us
           <ArrowTopRight width='20px' di />
         </Box>
-        <Box db as='a' href='https://www.instagram.com/side.side.xyz/' caps abs top={['20%', '20%', '40%']} left={['55%', '55%', '75%']} w='140px'>
+        <Box db as='a' href='https://www.instagram.com/sideby.space/' target='_blank' caps abs top={['20%', '20%', '40%']} left={['55%', '55%', '75%']} w='140px'>
           Check out the Instagram
           <ArrowTopRight width='20px' di />
         </Box>
