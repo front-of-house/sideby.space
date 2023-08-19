@@ -50,7 +50,7 @@ function Page() {
     <Box f aic jcc bg={variant.bg} c={variant.c} style={{ height: '100vh' }}>
       <Box f jcb abs left top right bg={variant.bg} c={variant.c} h={30} lh='30px' px={2} cx={{ borderBottom: '1px solid', borderColor: 'currentColor' }}>
         <Box>
-          <Box db as='a' href='https://goo.gl/maps/zi7fzJ4yZUFcW81u6' target='_blank'>3711 N Ravenswood Ave, Chicago</Box>
+          <Box db as='a' href='https://goo.gl/maps/wz9djpb8TZW4rEor9' target='_blank'>3701 N Ravenswood Ave, Chicago</Box>
         </Box>
         <Box d={['none', 'block']}>
           <Box db as='a' href='mailto:hi@sideby.space?subject=Hey%20hello%20hi' target='_blank'>hi@sideby.space</Box>
